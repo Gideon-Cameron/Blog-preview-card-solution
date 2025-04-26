@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <title>Blog preview card solution</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blog preview card highlighting HTML & CSS foundations by Greg Hooper." />
+  <meta name="author" content="Gideon Cameron" />
+  <meta property="og:title" content="HTML & CSS Foundations | Blog Preview" />
+  <meta property="og:description" content="Explore the foundations of HTML & CSS — the core languages of the web." />
+  <meta property="og:image" content="illustration-article.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gideon-cameron.github.io/Blog-preview-card-solution/" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <title>Blog Preview Card Solution</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div class="container">
-        <div class="img-container">
-            <img src="illustration-article.svg" alt="" class="img">
-        </div>
-        <div class="header">
-            <b class="top">Learning</b>
-        </div>
-        <div class="sub-header">
-            <p class="sub">Published 21 Dec 2023</p>
-        </div>
-        <div class="main">
-            <h2 class="text"><b>HTML & CSS foundations</b></h2>
-        </div>
-        <div class="main-content">
-            <p class="content">
-                These languagesare the backboneof every website,
-                defining structure, content, and presentation.
-            </p>
-        </div>
-        <div class="ending">
-            <img src="image-avatar.webp" alt="" class="end">
-            <p class="the-end">Greg Hooper</p>
-        </div>
+  <main class="container" role="main">
+    <div class="img-container">
+      <img src="illustration-article.svg" alt="Illustration for blog post on HTML and CSS" class="img" />
     </div>
-    
+
+    <div class="header">
+      <b class="top">Learning</b>
+    </div>
+
+    <div class="sub-header">
+      <p class="sub" aria-label="Published date">Published 21 Dec 2023</p>
+    </div>
+
+    <div class="main">
+      <h2 class="text"><b>HTML & CSS foundations</b></h2>
+    </div>
+
+    <div class="main-content">
+      <p class="content">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+    </div>
+
+    <div class="ending">
+      <img src="image-avatar.webp" alt="Profile image of author Greg Hooper" class="end" />
+      <p class="the-end">Greg Hooper</p>
+    </div>
+  </main>
 </body>
 </html>
